@@ -35,3 +35,30 @@
     text-align: center;
     line-height: 50px;
 }
+
+.row .col-12 {
+    /* debug */
+    background: grey;
+    border: 1px solid #000;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.row .col-8 {
+    /* debug */
+    background: darkgrey;
+    border: 1px solid #000;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.row .col-6 {
+    /* debug */
+    background: darkblue;
+    border: 1px solid #000;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
