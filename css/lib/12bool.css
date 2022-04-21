@@ -23,10 +23,10 @@
 /* impostazioni colonne */
 [class*="col-"] {
     flex: 0 0 auto;
-    /* background: #016CFA;
+    background: #016CFA;
     border: 1px solid white;
     color: white;
-    min-height: 50px; */
+    min-height: 50px;
 }
 
 .col {
