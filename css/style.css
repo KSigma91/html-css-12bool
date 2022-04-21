@@ -18,7 +18,7 @@
     margin-bottom: 20px;
 }
 
-#row-2 .col-6  {
+#row-2 .col-xs-6  {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -27,12 +27,13 @@
     padding: 15px 15px;
 }
 
-#row-2 .col-6 > .col-2, #row-2 .col-6 > .col-8 {
+#row-2 .col-xs-6 > .col-xs-2, #row-2 .col-xs-6 > .col-xs-8 {
     background: #00E165;
     border: 1px solid #016CFA;
+    height: 50px;
 }
 
-/* #row-2 .col-6:nth-child(2) > .col-6 {
+/* #row-2 .col-xs-6:nth-child(2) > .col-xs-6 {
     background: #00E165;
     border: 1px solid #016CFA;
 } */
