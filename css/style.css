@@ -12,5 +12,26 @@
     /* debug */
     background: lime;
     border: 1px solid darkgreen;
-    padding: 15px 43px;
+    /* padding: 10px 45px; */
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.row .col-2 {
+    /* debug */
+    background: red;
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.row .col-5 {
+    /* debug */
+    background: orange;
+    border: 1px solid darkgrey;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
