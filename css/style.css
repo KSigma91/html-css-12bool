@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-.row .box {
+.container .row {
+    display: flex;
+}
+
+.row .col-1 {
     /* debug */
     background: lime;
     border: 1px solid darkgreen;
