@@ -6,7 +6,15 @@
 
 .container .row {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+/* [class*="col-"] {
+    flex: 0 0 auto;
+    height: 50px;
+    width: 100px;
+} */
 
 .row .col-1 {
     /* debug */
@@ -61,4 +69,67 @@
     height: 50px;
     text-align: center;
     line-height: 50px;
+}
+
+.row:nth-child(7) {
+    margin-bottom: 20px;
+}
+
+.row:nth-child(7) .col-6  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* debug */
+    background: darkblue;
+    border: 1px solid #000;
+    height: 80px;
+}
+
+.row .col-6:nth-child(2) .col-6 {
+    /* debug */
+    background: blue;
+    border: 1px solid #000;
+    height: 50px;
+}
+
+.row .col-11 {
+    /* debug */
+    background: violet;
+    border: 1px solid grey;
+    height: 50px;
+}
+
+.row .col-10 {
+    /* debug */
+    background: green;
+    border: 1px solid darkgreen;
+    height: 50px;
+}
+
+.row .col-3 {
+    /* debug */
+    background: orange;
+    border: 1px solid brown;
+    height: 50px;
+}
+
+.row .col-9 {
+    /* debug */
+    background: crimson;
+    border: 1px solid #000;
+    height: 50px;
+}
+
+.row .col-4 {
+    /* debug */
+    background: cornflowerblue;
+    border: 1px solid #000;
+    height: 50px;
+}
+
+.row .col-7 {
+    /* debug */
+    background: blueviolet;
+    border: 1px solid #000;
+    height: 50px;
 }
