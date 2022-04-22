@@ -7,7 +7,6 @@
 .container {
     position: relative;
     margin: 5px auto;
-    width: 1170px;
     border: 6px solid #000;
 }
 
@@ -17,7 +16,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
-    width: 17%;
+    /* width: 17%; */
+    width: 200px;
     image-rendering: pixelated;
 }
 
