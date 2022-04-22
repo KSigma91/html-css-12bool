@@ -12,6 +12,15 @@
     line-height: 50px;
 }
 
+[class*="col-"] {
+    flex: 0 0 auto;
+    background: #016CFA;
+    border: 1px solid white;
+    color: white;
+    min-height: 50px;
+    width: 100%;
+}
+
 
 /* primo blocco */
 .container #row-2 {
